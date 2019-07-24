@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightyellow"
+        android:padding="20dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resistencias"
+            android:textColor="@color/orangered"
+            android:id="@+id/tv_uno"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/r1"/>
+        <TextView
+                android:layout_width="10dp"
+                android:layout_height="78dp"
+                android:id="@+id/tv_color1"
+                android:background="@color/red"/>
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/r2"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+        <TextView
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.13"
+                />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_color2"
+            android:background="@color/red"/>
+        <TextView
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/r3"/>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+            <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.13"
+            />
+            <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_color3"
+                    android:background="@color/red"/>
+            <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+            />
+
+        </LinearLayout>
+
+
+        <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/r4"/>
+        <TextView
+                android:layout_width="10dp"
+                android:layout_height="78dp"
+                android:id="@+id/tv_color4"
+                android:background="@color/silver"/>
+        <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/r5"/>
+
+    </LinearLayout>
+
+
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_resul"
+            android:text="@string/resultado"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#191970"
+            android:textStyle="bold"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+    >
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/color1"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+        <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="#696969"
+                android:entries="@array/resis_list"
+                android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+    >
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/color2"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textStyle="bold"
+        />
+
+        <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:entries="@array/resis_list"
+                android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+    >
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/color3"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textStyle="bold"
+        />
+
+        <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:entries="@array/resis_list"
+                android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+    >
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tolerancia"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textStyle="bold"
+        />
+
+        <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:entries="@array/tole_list"
+                android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <Button
+            android:text="@string/calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whitesmoke"
+            android:id="@+id/button_cal"
+            android:textSize="20sp"/>
+
+</LinearLayout>

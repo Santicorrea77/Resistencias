@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Resistencias</string>
+    <string name="Resistencias">Valor Resistencias</string>
+    <string name="color1">Banda 1</string>
+    <string name="color2">Banda 2</string>
+    <string name="color3">Banda 3</string>
+    <string name="tolerancia">Tolerancia</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">2.2 K ohms - 10%</string>
+
+    <string-array name="resis_list">
+        <item>0 (Negro)</item>
+        <item><font color='#800000'>1 (Marron)</font></item>
+        <item><font color='#ff0000'>2 (Rojo)</font></item>
+        <item><font color='#ffa500'>3 (Naranja)</font></item>
+        <item><font color='#daa520'>4 (Amarillo)</font></item>
+        <item><font color='#008000'>5 (Verde)</font></item>
+        <item><font color='#0000ff'>6 (Azul)</font></item>
+        <item><font color='#800080'>7 (Purpura)</font></item>
+        <item><font color='#808080'>8 (Gris)</font></item>
+        <item>9 (Blanco)</item>
+    </string-array>
+
+    <string-array name="tole_list">
+    <item><font color='#800000'>1% (Marron)</font></item>
+    <item><font color='#ff0000'>2% (Rojo)</font></item>
+    <item><font color='#b8860b'>5% (Dorado)</font></item>
+    <item><font color='#c0c0c0'>10% (Plateado)</font></item>
+
+    </string-array>
+</resources>
